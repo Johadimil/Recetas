@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*------Header-----*/
+
+
+header {
+position: fixed;
+background-color: darkred;
+width: 100%;
+}
+
+.header-container{
+    margin: auto;
+    max-width: 1700px;
+    padding: 0.5rem;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1.8rem;
+}
+
+h1{
+    display: inline;
+}
+
+
+nav{
+    float: right;
+    margin: 9px;
+}
+
+header li{
+    display: inline;
+    list-style: none;
+}
+
+/*--------presentacion---------*/
+.presentacion {
+   height: 720px;
+   font-size: 25px; 
+}
+
+.presentacion-video {
+    height: 720px;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    z-index: -1;
+
+}
+.presentacion-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.presentacion-content{
+color: white;
+text-align: center;
+padding: 285px 0;
+margin: auto;
+}
+
+
+/*------about-------*/
+
+.about {
+    height: 1000px;
+    font-size: 18px;
+    
+}
+
+.about-container {
+    width: 50%;
+    height: 50%;
+    
+    
+}
+
+.about-content{
+    text-align: justify;
+    padding: 130px 30px;
+    
+}
+
+.about-tittle{
+    text-align: center;
+    margin: 2rem;
+    color: navajowhite;
+    
+}
+.about-nuestra{
+    text-align: center;
+}
+
+#about-img1 {
+    background: url(./Imagenes/pexels-anna-shvets-4587955.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-img2{
+    background: url(./Imagenes/pexels-cottonbro-5146876.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*------Recetas------*/
+
+.Recetas{
+    clear: both;
+    font-size: 20px;
+    text-align: center ;
+    background: url(./Imagenes/pexels-ella-olsson-1640774.jpg);
+    background-position: center center center;
+}
+
+.Recetas-inner {
+    padding: 3rem;
+    color: white;
+}
+.Recetas-tittle{
+    margin: 2px;
+    color: navajowhite;
+    
+}
+
+.Recetas ul li{
+    list-style: none;
+    padding: 1rem;
+    
+}
+
+.Recetas ul{
+    padding: 0%;
+}
+
+.Recetas ul li div {
+    display: inline;
+    padding: 4rem;
+}
+
+h3{
+    clear: both;
+    margin: 1rem;
+    color: navajowhite;
+    text-align: center;
+}
+
+.color-p{
+    text-align: center;
+    color: antiquewhite;
+}
+
+/*------Opiniones------*/
+
+.Opiniones{
+    height: 550px;
+    text-align: center;
+}
+
+.form-central{
+    display: block;
+}
+
+.form-izquierdo{
+    text-align: center;
+    margin: 1rem;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.form-derecho{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    float: inherit;
+}
+
+.reservation label {
+    display: block;
+    padding: 1.2rem;
+}
+
+input[type="text"],
+input[type="time"],
+input[type="number"]{
+    width: 12rem;
+}
+
+textarea{
+    margin: 1rem;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    margin: 1rem;
+    height: 2rem;
+    width: 8rem;
+    display: block;
+    margin: auto;
+
+}
+.Opiniones{
+    background: url(./Imagenes/pexels-pineapple-supply-co-139259.jpg);
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    
+}
+
+/*--------Footer-------*/
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 2rempx;
+    padding: 1rem;
+    
+}
